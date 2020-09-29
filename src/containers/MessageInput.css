@@ -1,0 +1,22 @@
+.Message {
+    width: 80%;
+    margin: 1rem auto;
+}
+.Message__input {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: 0;
+}
+
+@media screen and (max-width: 400px){
+    .Message__input{
+        width: 80%;
+        align-self: center;
+        font-size: 0.8rem;
+    }
+}

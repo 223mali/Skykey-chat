@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.7em;
+    border-bottom: 1px solid rgba(189, 189, 192, 0.2);
+
+}
+.Header__name {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.Header_status{
+    width: 50%;
+    height: auto;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 400px){
+    .Header{
+        padding: 0.5em;
+    }
+    .Header__name{
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    .Header_status{
+        font-size: 0.5rem;
+    }
+}
